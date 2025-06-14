@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a deep learning-based model to detect osteoporosis and osteopenia from knee and spine X-ray images using transfer learning. The goal is to provide a cheaper, more accessible alternative to DEXA scans, particularly for low-resource settings.
 
@@ -19,13 +19,13 @@ The best-performing model uses **EfficientNet-B0** and achieves:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- ✅ Multi-region classification (knee and spine)
-- ✅ Transfer learning with EfficientNet-B0
-- ✅ Custom data augmentation techniques
-- ✅ Robust evaluation with precision, recall, F1-score
-- ✅ Designed for medical integration and low-resource settings
+-  Multi-region classification (knee and spine)
+-  Transfer learning with EfficientNet-B0
+-  Custom data augmentation techniques
+-  Robust evaluation with precision, recall, F1-score
+-  Designed for medical integration and low-resource settings
 
 ---
 
@@ -38,7 +38,7 @@ README.md         # You're reading it!
 
 ---
 
-## 📊 Dataset and Sampling
+##  Dataset and Sampling
 
 - Public datasets from HuggingFace, Kaggle, and Radiopaedia
 - Includes normal, osteopenic, and osteoporotic X-rays
@@ -50,7 +50,7 @@ README.md         # You're reading it!
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python** (Google Colab)
 - **Libraries**:
@@ -62,7 +62,7 @@ README.md         # You're reading it!
 
 ---
 
-## 📈 Model Pipeline
+##  Model Pipeline
 
 **Custom 5-Step Machine Learning Process:**
 1. **Data Preparation:** Cleaning, formatting, stratified sampling
@@ -73,7 +73,7 @@ README.md         # You're reading it!
 
 ---
 
-## 📉 Evaluation Metrics
+##  Evaluation Metrics
 
 | Metric     | Best Score |
 |------------|------------|
@@ -87,13 +87,13 @@ README.md         # You're reading it!
 
 ---
 
-## 🔍 Results
+##  Results
 
 The EfficientNet-B0 model outperformed all others, proving highly effective despite a relatively small dataset. Training and test losses indicated minimal overfitting. The model shows promise for clinical integration to support early diagnosis and reduce fracture risks.
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - Expand the dataset (diversity in age, sex, ethnicity)
 - Integrate with hospital imaging systems
@@ -102,7 +102,7 @@ The EfficientNet-B0 model outperformed all others, proving highly effective desp
 
 ---
 
-## 📚 References
+##  References
 
 - HuggingFace: [Spine X-ray Dataset](https://huggingface.co/datasets/TrainingDataPro/spine-x-ray)
 - Kaggle: [Knee Osteoporosis Dataset](https://doi.org/10.1007/s44196-024-00615-4)
@@ -111,10 +111,10 @@ The EfficientNet-B0 model outperformed all others, proving highly effective desp
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you'd like to learn more or collaborate:
 
 **Ishan Jakkulwar**  
 Queen Elizabeth’s School Barnet  
-Mentor: Michael Noonan  
+  
